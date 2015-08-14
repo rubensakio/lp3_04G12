@@ -37,6 +37,8 @@ public class FrontController extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             
             if(command.startsWith("login")){}
+            
+            if(command.endsWith("login")){}
 
         }
     }
